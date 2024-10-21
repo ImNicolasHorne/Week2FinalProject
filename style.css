@@ -1339,7 +1339,7 @@ MEDIA QUERIES
         align-items: center;
     }
 
-
+ 
 }
 
 
@@ -1351,6 +1351,27 @@ MEDIA QUERIES
         align-items: center;
 
 }
+
+    .services__blob{
+    display: none;
+}
+
+    ..footer__blob--1 , .footer__blob--2{
+        display: none;
+    }
+
+    .start__blob--1 , .start__blob--2{
+        display: none;
+    }
+
+    .plans__blob {
+        display: none;
+    }
+
+    .header__blob {
+        display: none;
+    }
+
 }
 @media(max-width: 350px){
     .plan{
@@ -1372,6 +1393,7 @@ MEDIA QUERIES
         justify-content: center;
         align-items: center;
     }
+
 }
 
 
