@@ -1352,10 +1352,25 @@ MEDIA QUERIES
 
 }
 }
-@media(max-width: 400px){
+@media(max-width: 350px){
     .plan{
         width: 100%;
-        max-width: 336px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .plan__name{
+        font-size: 18px;
+    }
+    
+
+    .plan__btm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
