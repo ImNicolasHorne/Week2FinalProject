@@ -237,6 +237,7 @@ header .row {
     margin-right: 12px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-left: 4px;
 }
 
@@ -1387,11 +1388,11 @@ MEDIA QUERIES
 @media(max-width: 440px){
     .plan{
         width: 100%;
-        max-width: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 25px;
+        margin-left: 28px;
     }
 
     .plan__name{
@@ -1423,17 +1424,26 @@ MEDIA QUERIES
         font-size: 10px;
     }
 
-    .start__buttons {
-        margin-left: 96px;
+    #start{
+        margin-top: 96px;
+    }
+
+
+    .start__row{
+        padding: 0;
+        margin-right: 140px;
     }
 
     .start__button{
         border-radius: 300px;
         font-size: 8px;
+        margin-top: 24px;
     }
 
     .start__title{
-        font-size: 14px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
     }
 
     .value__img{
@@ -1451,7 +1461,128 @@ MEDIA QUERIES
         font-size: 10px;
         
     }
+
+    .container{
+        padding: 0;
+    }
+
+    .nav__logo--img{
+        margin-left: 8px;
+    }
+
+    .header__description--para {
+        font-size: 12px;
+    }
+
+    .header__customers{
+        margin-left: 112px;
+        transform: scale(.9);
+    }
+
+    .service__title{
+        font-size: 18px;
+    }
+
+    .section__para{
+        font-size: 12px;
+    }
+
+    .service__img--wrapper{
+        transform: scale(.9);
+    }
+
+    #quality .row{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .quality__img{
+        transform: scale(.7);
+    }
+
+    #steps .section__tag,
+    #quality .section__tag{
+        margin-left: 120px;
+        margin-top: 12px;
+
+    }
+    .quality__description{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 440px;
+    }
+
+    #services .section__para ,
+    #quality .section__para{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+
+    #pricing .section__para{
+        font-size: 16px;
+    }
+
+    #quality .btn{
+        margin-left: 104px;
+    }
+
+    .step__description{
+        margin: 0 auto;
+    }
+
+    .step__number{
+        margin-right: 8px;
+    }
+
+    .values__description{
+        margin: 0 auto;
+        margin-left: 24px;
+    }
+    
+    #values .section__tag{
+        margin-left: 140px;
+    }
+
+    #values .btn{
+        margin-left: 120px;
+    }
+
+    #testimonials{
+        margin-top: 36px;
+    }
+
+    .testimonials__img{
+        margin-left: 100px;
+    }
+
+    .test__description{
+        padding: 0;
+    }
+
+    #testimonials .section__tag{
+        margin-left: 136px;
+    }
+
+    #start{
+        margin-bottom: 84px;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .footer__row{
+        padding: 0;
+        margin-top: 48px;
+    }
+
+    }
+
 }
+
+
 
 
 
