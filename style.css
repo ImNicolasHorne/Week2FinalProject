@@ -573,7 +573,7 @@ VALUES
 }
 
 .value__img{
-    width: 20px;
+    width: 30px;
     height: 20px;
 }
 
@@ -602,12 +602,7 @@ VALUES
     margin-top: 48px;
 }
 
-.values__img{
-    width: 50%;
-}
-
-.values__description, 
-.value__img{
+.values__description {
     width: 50%;
 }
 
@@ -960,6 +955,7 @@ START
     line-height: 1.5;
     z-index: 2;
     margin-right: 60px;
+    margin-bottom: 16px;
 }
 
 .start__title,
@@ -1210,7 +1206,7 @@ MEDIA QUERIES
         margin-right: 96px;
     }
 
-    .start__button{
+    .start__buttons{
         margin-top: 12px;
         margin-left: 64px;
     }
@@ -1372,21 +1368,45 @@ MEDIA QUERIES
         display: none;
     }
 
+    .start__button{
+        border-radius: 400;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .start__title{
+        font-size: 18px;
+    }
+
+    .plan__price{
+        font-size: 28px;
+    }
 }
-@media(max-width: 350px){
+@media(max-width: 440px){
     .plan{
         width: 100%;
         max-width: 200px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
         font-size: 25px;
     }
 
     .plan__name{
-        font-size: 18px;
+        font-size: 14px;
     }
     
+    .plan__price{
+        font-size: 24px;
+    }
+
+    .plan__duration{
+        font-size: 10px;
+    }
+
+    .plan__feature{
+        font-size: 8px;
+    }
 
     .plan__btm{
         display: flex;
@@ -1394,7 +1414,32 @@ MEDIA QUERIES
         align-items: center;
     }
 
+    .plan__button{
+        display: block;
+        border-radius: 300px;
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .start__buttons {
+        margin-left: 96px;
+    }
+
+    .start__button{
+        border-radius: 300px;
+        font-size: 8px;
+    }
+
+    .start__title{
+        font-size: 10px;
+    }
+
+    .value__img{
+        width: revert-layer;
+        height: 10px;
+    }
 }
+
 
 
     
