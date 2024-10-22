@@ -2,7 +2,7 @@
 GENERICS
 */
 
-import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
     margin: 0;
@@ -291,7 +291,6 @@ header .row {
 
 .header__customers{
     margin-top: 16px;
-    padding-right: 128px;
     opacity: 0.5;
 }
 
@@ -539,9 +538,6 @@ VALUES
     align-items: center;
 }
 
-.values__description{
-    padding: 32px 64px 32px 0;
-}
 
 .values__list{
     display: flex;
