@@ -1382,6 +1382,8 @@ MEDIA QUERIES
         font-size: 28px;
     }
 }
+
+
 @media(max-width: 440px){
     .plan{
         width: 100%;
@@ -1437,6 +1439,10 @@ MEDIA QUERIES
     .value__img{
         width: revert-layer;
         height: 10px;
+    }
+
+    .header__email--input{
+        font-size: 4px;
     }
 }
 
